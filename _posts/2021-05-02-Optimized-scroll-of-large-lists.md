@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "대용량 리스트 최적화 스크롤"
 ---
 
