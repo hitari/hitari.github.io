@@ -79,7 +79,7 @@ const DATA_PER_PAGE = 10;
 const lastPage = arr.length / DATA_PER_PAGE;
 
 const addData = (currentPage) => {
-  if (currentPage > lastPage) return console.log("end");
+  if (currentPage > lastPage) return;
 
   const data = arr.slice(
     (currentPage - 1) * DATA_PER_PAGE,
